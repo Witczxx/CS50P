@@ -8,4 +8,3 @@ def factorial(n):
 
 
 result = factorial(3)
-

@@ -1,3 +1,14 @@
+# Added
+*.png
+*.jpg
+*.jpeg
+*.pdf
+src/
+pyproject.toml
+pyrightconfig.json
+uv.lock
+.python-version
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

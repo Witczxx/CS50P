@@ -1,0 +1,43 @@
+
+・           any character except a newline
+*           O or more repetitions
++           1 or more repetitions
+
+?           0 or 1 repetition
+{m}         m repetitions
+{m,n}      m-n repetitions
+
+^           matches the start of the string
+$           matches the end of the string (just before the new line or string ending)
+
+[]          set of characters
+[^]         complementing the set
+
+
+\d          decimal digit
+\D          not a decimal digit
+
+\s          whitespace characters
+\S          not a whitespace character
+
+\w          word character (as well as numbers and the underscore)
+\W          not a word character
+
+A|B         either A or B
+(...)       a group
+(?:...)     non-capturing version
+
+(?P<name>...)   give the capture-group a name
+
+FLAGS
+
+re.IGNORECASE
+re.MULTILINE
+re.DOTALL
+
+Both helping you not to write ^ and $:
+re.match
+re.fullmatch
+re.sub
+re.split
+re.findall

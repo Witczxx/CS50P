@@ -1,0 +1,38 @@
+Class: A blueprint for creating objects.
+Object: An instance created from a class (e.g., car = Car()).
+Instance: Same idea as “object” (an individual created from a class).
+Attribute: Data stored on a class or on an object (e.g., car.color).
+Method: A function defined inside a class (e.g., car.start()).
+Constructor: A special method used to initialize new objects. In Python this is commonly __init__.
+State: The data an object holds (its attributes).
+Behavior: What the object can do (its methods).
+
+class Car: → Class
+car = Car() → Object/Instance
+car.color → Attribute
+def start(self): ... → Method
+def __init__(self, color): ... → Constructor
+
+
+@staticmethod also exists
+instance variables (?)
+@classmethods
+inheritance (hierarchical structures)
+operator overloading
+
+BaseException
++-- KeyboardInterrupt
++-- Exception
+    +-- ArithmeticError
+        +-- ZeroDivisionErro
+    +-- AssertionError
+    +-- AttributeError
+    +-- EOFError
+    +-- ImportError
+        +-- ModuleNotFoundError
+    +-- LookupError
+        +-- KeyError
+    +-- NameError
+    +-- SyntaxError
+        +-- IndentationError
+    +-- ValueError
